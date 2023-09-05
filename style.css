@@ -293,7 +293,7 @@ body:after {
 	.about-section {
 		margin-bottom: 2rem;
 		text-align: left;
-		width: 100%;
+		width: 90%;
 	}
 	.layout-project {
 	grid-template-columns: repeat(1, 1fr);
