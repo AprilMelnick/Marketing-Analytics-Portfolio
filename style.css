@@ -1,5 +1,5 @@
 body {
-   font-family: "Audiowide", "Lato";
+   font-family: "Lato";
    background-color: #434343;
 }
 html {
@@ -64,9 +64,9 @@ nav {
 }
 h1 {
 	color: rgba(244, 244, 244, 1);
-	font-family: Audiowide;
-	font-size: 10vw;
-	font-weight: bold;
+	font-family: Lato;
+	font-size: 8vw;
+	font-weight: 300;
 	line-height: 1.1;
 	letter-spacing: 0.2rem;
 	padding-top: 6rem;
@@ -86,8 +86,8 @@ h2 {
 h3 {
     color: rgba(244, 244, 244, 1);
 	font-size: 4vw;
-	font-family: Audiowide;
-	font-weight: normal;
+	font-family: Lato;
+	font-weight: 300;
 	line-height: 1.1;
 	letter-spacing: 0.2rem;
 	margin: 0;
