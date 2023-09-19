@@ -1,5 +1,5 @@
 body {
-   font-family: "Lato";
+   font-family: "Poppins", "Tilt Neon";
    background-color: #434343;
 }
 html {
@@ -47,7 +47,7 @@ nav {
 	grid-template-rows: repeat(3, 1fr);
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;
-	margin-top: 5rem
+	margin-top: 3rem
 }
 .contact-section {
 	text-align: left;
@@ -63,71 +63,74 @@ nav {
 	gap: 1rem;
 }
 h1 {
-	color: rgba(173, 194, 255, 1);
-	font-family: Lato;
+	color: #adc2ff;
+	font-family: Tilt Neon;
 	font-size: 8vw;
 	font-weight: 300;
-	line-height: 1.1;
-	letter-spacing: 0.2rem;
+	line-height: 1.3;
+	letter-spacing: 0.5rem;
 	padding-top: 6rem;
 	padding-bottom: 3rem;
 	margin: 0;
 }
 h2 {
-	color:rgba(244, 244, 244, 1);
+	color: rgba(244, 244, 244, 1);
 	font-size: 1.6rem;
-	font-family: Lato;
-	font-weight: normal;
+	font-family: Poppins;
+	font-weight: 300;
 	line-height: 1.8;
 	letter-spacing: 0.1rem;
 	padding-bottom: 3rem;
 	margin: 0;
 }
 h3 {
-    color: rgba(173, 194, 255, 1);
+	color: #adc2ff;
 	font-size: 4vw;
-	font-family: Lato;
+	font-family: Tilt Neon;
 	font-weight: 300;
 	line-height: 1.1;
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.5rem;
 	margin: 0;
 	padding-top: 6rem;
+	padding-bottom: 0;
 }
 h4 {
     color: rgba(244, 244, 244, 1);
 	font-size: 1.6rem;
-	font-family: Lato;
-	font-weight: normal;
+	font-family: Poppins;
+	font-weight: 300;
 	line-height: 1.2;
 	letter-spacing: 0.1rem;
 	padding: 0;
 	margin-bottom: 2rem;
 }
 h5 {
-	color: rgba(194, 209, 255, 1);
+	color: #adc2ff;
 	font-size: 1.1rem;
-	font-family: Lato;
-	font-weight: bold;
+	font-family: Poppins;
+	font-weight: 500;
 	line-height: 1.8;
 	letter-spacing: 0.1rem;
 	padding-top: 1.5rem;
 	margin: 0;
 }
 h6 {
-	font-family: Lato;
+	font-family: Poppins;
 	font-size: .65rem;
+	font-weight: 300;
 	color: rgba(244, 244, 244, 1);
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.1rem;
 	line-height: 1.9;
 	padding-bottom: 2rem;
 	margin: 0;
 }
 p {
-	font-family: Lato;
+	font-family: Poppins;
 	font-size: 1rem;
+	font-weight: 300;
 	color: rgba(244, 244, 244, 1);
-	letter-spacing: 0.2rem;
-	line-height: 1.9;
+	letter-spacing: 0.1rem;
+	line-height: 2;
 	margin: 0;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -179,7 +182,8 @@ a:hover {
   	text-decoration: none;
   	display: inline-block;
   	font-size: 1rem;
-	font-family: Lato;
+	font-family: Poppins;
+	font-weight: 300;
 	letter-spacing: 0.2rem;
 	transition: all 0.4s;
   	cursor: pointer;
@@ -190,7 +194,7 @@ span {
 	display: block;
 }
 .button:hover {
-  	background-color: rgba(166, 90, 78, 0.7);
+  	background-color: rgba(166, 90, 78, .7);
   	color: rgba(244, 244, 244, 1);
 	text-decoration: none;
 }
@@ -205,7 +209,8 @@ ul.nav {
 li.nav a {
  	display: block;
   	color: rgba(244, 244, 244, 1);
-	font-family: Lato;
+	font-family: Poppins;
+	font-weight: 300;
 	font-size: 1 rem;
 	letter-spacing: 0.2rem;
   	text-align: center;
@@ -219,7 +224,8 @@ li.nav a:hover {
 
 a.one:link {
 	color: rgba(244, 244, 244, 1);
-	font-family: Lato;
+	font-family: Poppins;
+	font-weight: 300;
 	font-size: 1 rem;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
@@ -230,7 +236,8 @@ a.one:hover {color: rgba(166, 90, 78, 1);}
 ul.about {
 	margin: 0;
 	padding: 0;
-	font-family: Lato;
+	font-family: Poppins;
+	font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);
 	letter-spacing: 0.2rem;
@@ -238,7 +245,8 @@ ul.about {
 }
 li.about {
 	margin-left: .5rem;
-	font-family: Lato;
+	font-family: Poppins;
+	font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);
 	letter-spacing: 0.2rem;
@@ -246,7 +254,8 @@ li.about {
 }
 body:after {
     content:"\00a9 2023 Designed & Built by April Melnick";
-    font-family: Lato;
+    font-family: Poppins;
+	font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);
 	letter-spacing: 0.2rem;
