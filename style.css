@@ -1,5 +1,5 @@
 body {
-   font-family: "Lexend Giga", "Tilt Neon";
+   font-family: "Lexend", "Tilt Neon";
    background-color: #434343;
 }
 html {
@@ -76,7 +76,7 @@ h1 {
 h2 {
 	color: rgba(244, 244, 244, 1);
 	font-size: 2rem;
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-weight: 300;
 	line-height: 1.8;
 	letter-spacing: 0rem;
@@ -97,7 +97,7 @@ h3 {
 h4 {
     color: rgba(244, 244, 244, 1);
 	font-size: 1.3rem;
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-weight: 300;
 	line-height: 1.2;
 	letter-spacing: 0rem;
@@ -107,7 +107,7 @@ h4 {
 h5 {
 	color: #adc2ff;
 	font-size: 1.1rem;
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-weight: 500;
 	line-height: 1.8;
 	letter-spacing: 0rem;
@@ -115,7 +115,7 @@ h5 {
 	margin: 0;
 }
 h6 {
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-size: .65rem;
 	font-weight: 300;
 	color: rgba(244, 244, 244, 1);
@@ -125,7 +125,7 @@ h6 {
 	margin: 0;
 }
 p {
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-size: 1rem;
 	font-weight: 300;
 	color: rgba(244, 244, 244, 1);
@@ -182,7 +182,7 @@ a:hover {
   	text-decoration: none;
   	display: inline-block;
   	font-size: 1rem;
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-weight: 300;
 	letter-spacing: 0rem;
 	transition: all 0.4s;
@@ -209,7 +209,7 @@ ul.nav {
 li.nav a {
  	display: block;
   	color: rgba(244, 244, 244, 1);
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-weight: 300;
 	font-size: 1.2rem;
 	letter-spacing: 0rem;
@@ -224,7 +224,7 @@ li.nav a:hover {
 
 a.one:link {
 	color: rgba(244, 244, 244, 1);
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-weight: 300;
 	font-size: 1 rem;
 	letter-spacing: 0rem;
@@ -236,7 +236,7 @@ a.one:hover {color: rgba(166, 90, 78, 1);}
 ul.about {
 	margin: 0;
 	padding: 0;
-	font-family: Lexend Giga;
+	font-family: Lexend;
 	font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);
@@ -245,7 +245,7 @@ ul.about {
 }
 li.about {
 	margin-left: .5rem;
-	font-family: Poppins;
+	font-family: Lexend;
 	font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);
@@ -254,7 +254,7 @@ li.about {
 }
 body:after {
     content:"\00a9 2023 Designed & Built by April Melnick";
-    font-family: Lexend Giga;
+    font-family: Lexend;
 	font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);

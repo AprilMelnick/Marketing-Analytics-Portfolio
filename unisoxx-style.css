@@ -1,5 +1,5 @@
 body {
-    font-family: "Space Mono", "Maven Pro", "Lexend Giga" "Tilt Neon";
+    font-family: "Space Mono", "Maven Pro", "Lexend" "Tilt Neon";
     font-style: sans-serif;
     background-color: #434343;
 }
@@ -173,7 +173,7 @@ ul.nav {
 li.nav a {
     display: block;
     color: white;
-    font-family: Lexend Giga;
+    font-family: Lexend;
     font-weight: 300;
     font-size: 1 rem;
     letter-spacing: 0.2rem;
@@ -204,7 +204,7 @@ li b {
 }
 a.one:link {
 	color: rgba(244, 244, 244, 1);
-	font-family: Lexend Giga;
+	font-family: Lexend;
     font-weight: 300;
 	font-size: 1 rem;
 	letter-spacing: 0.2rem;
@@ -369,7 +369,7 @@ span {
 
 body:after {
     content:"\00a9 2023 Designed & Built by April Melnick";
-    font-family: Lexend Giga;
+    font-family: Lexend;
     font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);
