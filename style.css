@@ -16,6 +16,7 @@ nav {
 }
 .hero-section {
 	text-align: center;
+	margin-bottom: 6rem;
 }
 .about-section {
 	margin-top: 4rem;
@@ -66,7 +67,8 @@ nav {
 	grid-template-rows: repeat(2, 1fr);
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;
-	margin-top: 3rem
+	margin-top: 3rem;
+	margin-bottom: 6rem;
 }
 .layout-recommendation {
 	width: 100%;
@@ -75,7 +77,8 @@ nav {
 	grid-template-rows: repeat(1, 1fr);
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;
-	margin-top: 3rem
+	margin-top: 3rem;
+	margin-bottom: 6rem;
 }
 
 .contact-section {
