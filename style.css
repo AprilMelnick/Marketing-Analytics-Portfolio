@@ -8,7 +8,7 @@ html {
 }
 .container {
     max-width: 90%;
-    margin: 0 auto;
+    margin: auto;
 }
 nav {
     display: flex;
@@ -60,6 +60,7 @@ nav {
 	padding-bottom: 0;
 	margin: 0;
 }
+
 .layout-project {
 	width: 100%;
 	height: auto;
@@ -79,6 +80,23 @@ nav {
 	gap: 2rem;
 	margin-top: 3rem;
 	margin-bottom: 6rem;
+}
+.layout-skills {
+	width: 100%;
+	display: flex;
+	gap: .5rem;
+	flex-wrap: nowrap;
+	margin: 0;
+}  
+.grow1 { 
+	flex-grow: 1; 
+	color: #adc2ff;
+	font-size: 1rem;
+	font-family: Lexend;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0rem;
+	text-align: center;
 }
 
 .contact-section {
@@ -232,6 +250,23 @@ a:hover {
 	border-color: rgba(166, 90, 78, 1);
 	border-width: .15rem;
 }
+.container-case-study-section-padding {
+	padding-bottom: 2rem;
+}
+.container-border {
+	max-width: 100%;
+	height: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 2rem;
+	padding-top: 0;
+	margin-bottom: 2rem;
+	border-style: solid;
+	border-radius: 2rem;
+	border-color: rgba(166, 90, 78, 1);
+	border-width: .15rem;
+}
+
 .button {
  	background-color: rgba(166, 90, 78, 1);
  	border-radius: .5rem;
@@ -305,6 +340,7 @@ ul.about {
 }
 li.about {
 	margin-left: .5rem;
+	margin-bottom: 1rem;
 	font-family: Lexend;
 	font-weight: 300;
 	font-size: 1rem;
@@ -312,6 +348,59 @@ li.about {
 	letter-spacing: 0.2rem;
 	line-height: 1.9;
 }
+* {box-sizing: border-box}
+.myPng1, .myPng2, .myPng3 {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1rem;
+  margin-top: -1.5rem;
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(166, 90, 78, 1);
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+.numbertext {
+	color: #333333;
+	font-family: Lexend;
+	font-size: .65rem;
+	font-weight: 600;
+	padding: .5rem 1rem;
+	position: absolute;
+	top: 0;
+}
+
+.container-thanks {
+	text-align: center; 
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+}
+
 body:after {
     content:"\00a9 2023 Designed & Built by April Melnick";
     font-family: Lexend;
@@ -374,6 +463,9 @@ body:after {
 		text-align: left;
 		width: 80%;
 	}
+	.case-study-section{
+		width: 100%;
+	}
 	.layout-project {
 	grid-template-columns: repeat(1, 1fr);
 	gap: 2rem;
@@ -389,4 +481,8 @@ body:after {
 		padding-bottom: 1.5rem;
 		padding-top: 0;
 	}
+	.layout-skills {
+		flex-wrap: wrap;
+	}
+	
 }
