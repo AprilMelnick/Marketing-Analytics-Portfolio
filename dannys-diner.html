@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>April Melnick: Danny's Diner</title>
+        <link rel="icon" type="image/x-icon" href="assets/AM Favicon 19.9.23.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&family=Tilt+Neon&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+	            <ul class="nav">
+		            <li class="nav"><a class="active" style="float:left" href="index.html">April Melnick</a></li>
+	                <li class="nav" style="float:right"><a class="active" href="#contact-section">Contact</a></li>
+		            <li class="nav" style="float:right"><a class="active" href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="container-large">
+                <h1 class="style-h3">Danny's Diner</h1>
+            </div>
+            <div class="case-study-section">
+                <img src="assets/Dannys Diner Image.webp" class="case-study-img" alt="stylized icon image of bowl and chopsticks holding noodles in black with the words Danny's Diner on a pink background.">
+                <div class="container-medium">
+                    <div class="container-case-study-section-padding">
+                        <h2>Overview</h2>
+                        <p>Feeling confident with Basic SQL, I wanted to upskill and learn window functions. I completed this case study using a project created by Data Analyst, Danny Ma.</p>
+                        <a href="https://8weeksqlchallenge.com/case-study-1/" target="_blank" class="button" style="width: 100%; margin-bottom: 2rem;">To Data with Danny Case Study</a>
+                    </div>
+                    <div class="container-case-study-section-padding">
+                        <h2>Problem Statement</h2>
+                        <p>Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.</p><p>He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.</p>
+                    </div>
+                    <div class="container-case-study-section-padding">
+                        <h2>Data Exploration</h2>
+                        <p style="padding-bottom: 0;">Danny has shared with you 3 key datasets for this case study:</p>
+                        <ul>
+                            <li class="about">sales</li>
+                            <li class="about">menu</li>
+                            <li class="about">members</li>
+                        </ul>
+                        <p style="padding-bottom: 0;">The following questions were proposed for data exploration:</p>
+                        <ol>
+                            <li class="numbered">What is the total amount each customer spent at the restaurant?</li>
+                            <li class="numbered">How many days has each customer visited the restaurant?</li>
+                            <li class="numbered">What was the first item from the menu purchased by each customer?</li>
+                            <li class="numbered">What is the most purchased item on the menu and how many times was it purchased by all customers?</li>
+                            <li class="numbered">Which item was the most popular for each customer?</li>
+                            <li class="numbered">Which item was purchased first by the customer after they became a member?</li>
+                            <li class="numbered">Which item was purchased just before the customer became a member?</li>
+                            <li class="numbered">What is the total items and amount spent for each member before they became a member?</li>
+                            <li class="numbered">If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?</li>
+                            <li class="numbered">In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?</li>
+                        </ol>
+                    </div>
+                    <div class="container-case-study-section-padding">
+                        <h2>Solutions</h2>
+                        <iframe src="assets/Danny's Diner Answers.txt" width="100%" height="300" frameBorder="0" style="margin-top: 2rem;"></iframe>
+                    </div>
+                    <div class="container-case-study-section-padding">
+                        <h2>Key Learning</h2>
+                        <p>From time to time, I would get stuck and reference YouTube video solutions. With question 10, I wasn't happy with the suggested solutions I was finding.</p>
+                        <p>Since the data set was small, I got out a pen and paper to figure out the totals I should be getting. The proposed solution was off.</p>
+                        <img src="assets/10 explainer.webp" width="100%">
+                        <p>After some experimenting, I found that the Interval function was not operating correctly in a RANK() function, so the proper dates weren't being filtered.</p>
+                        <p>I found the solution to create a date window for the filtering and was finally able to match my pen and paper solution.</p>
+                        <p>I learned that it's key to trust your instincts and double check your work manually, if you must.</p>
+                    </div>
+                    <div class="container-case-study-section-padding">
+                        <h2>Bonus Questions</h2>
+                        <p>The following questions are related creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.</p>
+                        <p>Recreate the following tables output using the available data:</p>
+                    </div>
+                    
+                </div>
+                <div class="layout-double-image">
+                    <div>
+                        <img src="assets/Bonus Table 1.webp" width="90%">
+                    </div>
+                    <iframe src="assets/Bonus 1.txt" width="200%" height="300" frameBorder="0"></iframe>
+                </div>
+                <div class="layout-double-image">
+                    <div style="width: 40%;">
+                        <img src="assets/Bonus Table 2.webp" width="90%">
+                    </div>
+                    <iframe src="assets/Bonus Table 2.txt" width="80%" height="300" frameBorder="0"></iframe>
+                </div>
+                <div class="container-thanks">
+                    <h2>Thanks for Reading!</h2>
+                </div>
+            </div>
+            <footer class="contact-section">
+                <div class="main" id="contact-section">
+                    <h3>Contact Me</h3>
+                    <div class="contact-links container-small">
+                        <a class="one" href="https://www.linkedin.com/in/aprilmelnick/" target="_blank">LinkedIn</a>
+                        <a class="one" href="https://github.com/AprilMelnick">GitHub</a>
+                        <a class="one" href="mailto:aprilmelnick@gmail.com">Email</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

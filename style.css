@@ -86,8 +86,17 @@ nav {
 	display: flex;
 	gap: .5rem;
 	flex-wrap: nowrap;
-	margin: 0;
+	margin-bottom: 0;
 }  
+.layout-double-image {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	gap: .5rem;
+	flex-wrap: nowrap;
+	margin-bottom: 4rem;
+} 
+
 .grow1 { 
 	flex-grow: 1; 
 	color: #adc2ff;
@@ -328,16 +337,6 @@ a.one:link {
 a.one:visited {color: rgba(244, 244, 244, 1)}
 a.one:hover {color: rgba(166, 90, 78, 1);}
 
-ul.about {
-	margin: 0;
-	padding: 0;
-	font-family: Lexend;
-	font-weight: 300;
-	font-size: 1rem;
-	color: rgba(244, 244, 244, 1);
-	letter-spacing: 0.2rem;
-	line-height: 1.9;
-}
 li.about {
 	margin-left: .5rem;
 	margin-bottom: 1rem;
@@ -345,8 +344,19 @@ li.about {
 	font-weight: 300;
 	font-size: 1rem;
 	color: rgba(244, 244, 244, 1);
-	letter-spacing: 0.2rem;
-	line-height: 1.9;
+	letter-spacing: 0.1rem;
+	line-height: 2.1;
+}
+li.numbered {
+	margin-left: 1.5rem;
+	margin-bottom: 1rem;
+	padding-left: 0;
+	font-family: Lexend;
+	font-weight: 300;
+	font-size: 1rem;
+	color: rgba(244, 244, 244, 1);
+	letter-spacing: 0.1rem;
+	line-height: 2.1;
 }
 * {box-sizing: border-box}
 .myPng1, .myPng2, .myPng3 {display: none}
