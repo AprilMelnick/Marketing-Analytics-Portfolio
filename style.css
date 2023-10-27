@@ -410,6 +410,9 @@ img {vertical-align: middle;}
 	padding-top: 3rem;
 	padding-bottom: 4rem;
 }
+.container_bonus_table2 {
+	width: 40%;
+}
 
 body:after {
     content:"\00a9 2023 Designed & Built by April Melnick";
@@ -439,6 +442,20 @@ body:after {
 		letter-spacing: 0rem;
 		padding-bottom: 3rem;
 		margin: 0;
+	}
+	.layout-double-image {
+		flex-wrap: wrap;
+		margin-bottom: 4rem;
+	} 
+	.container_bonus_table2 {
+		width: 90%;
+	}
+	.case-study-section {
+		width: 100%;
+	}
+	.container-medium {
+		max-width: 90%;
+		margin: auto;
 	}
 }
 
